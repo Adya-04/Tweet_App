@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TweetApp" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/my_light_primary</item>
+        <item name="colorPrimaryDark">@color/color_Primary_Dark</item>
+        <item name="colorAccent">@color/color_accent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+    <style name="AppThemeNoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/my_light_primary</item>
+        <item name="colorPrimaryDark">@color/color_Primary_Dark</item>
+        <item name="colorAccent">@color/color_accent</item>
+
+    </style>
+
+    <style name="Theme.TweetApp" parent="Base.Theme.TweetApp" />
+</resources>
